@@ -1,0 +1,5 @@
+Sender,Recipient,Subject,Body,Status,Attempts,LastAttempt,ErrorMessage
+
+"arie.gurin@rehnonline.com","arikg94il@gmail.com","Test Subject","My message body","Sent","1","11/14/2022 3:06:11 PM",""
+"arie.gurin@rehnonline.com","arie.gurin@rehnonline.com","Test Subject","My message body","Sent","1","11/14/2022 3:06:27 PM",""
+"arie.gurin@rehnonline.com","arie.gurin@rehnonline.com","Test Subject","My message body","Sent","1","11/14/2022 3:06:31 PM",""
