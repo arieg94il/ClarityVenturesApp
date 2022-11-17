@@ -75,17 +75,20 @@ namespace CommManager
         {
             List<Logger> logs = new List<Logger>();
 
-            foreach (var line in File.ReadLines(filePath))
+            string[] lines = File.ReadAllLines(filePath);
+            lines = lines.Skip(1).ToArray();
+
+            foreach (var line in lines)
             {
                 string[] splitted = line.Split(',');
 
-                string sender = splitted[0];
-                string recipient = splitted[1];
-                string subject = splitted[2];
-                string body = splitted[3];
-                Status status = (Status)Enum.Parse(typeof(Status), splitted[4]);
-                int attempts = int.Parse(splitted[5]);
-                string errorMessage = splitted[6];
+                string sender = splitted[0].Trim(new char[] { '\"', '"' });
+                string recipient = splitted[1].Trim(new char[] { '\"', '"' });
+                string subject = splitted[2].Trim(new char[] { '\"', '"' });
+                string body = splitted[3].Trim(new char[] { '\"', '"' });
+                Status status = (Status)Enum.Parse(typeof(Status), splitted[4].Trim(new char[]{ '\"','"' }));
+                int attempts = int.Parse(splitted[5].Trim(new char[] { '\"', '"' }));
+                string errorMessage = splitted[6].Trim(new char[] { '\"', '"' });
 
                 Logger log = CreateLogger(sender, recipient, subject, body, status, attempts, errorMessage);
 

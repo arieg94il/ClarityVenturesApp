@@ -35,9 +35,10 @@ namespace ClientApplication
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(69, 132);
+            this.simpleButton1.Location = new System.Drawing.Point(80, 162);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(88, 28);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "Send Emails";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -45,19 +46,21 @@ namespace ClientApplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 34);
+            this.label1.Location = new System.Drawing.Point(47, 57);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 13);
+            this.label1.Size = new System.Drawing.Size(161, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sending Email Test Project";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(214, 167);
+            this.ClientSize = new System.Drawing.Size(250, 206);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.simpleButton1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.Text = "Main Form";
             this.ResumeLayout(false);

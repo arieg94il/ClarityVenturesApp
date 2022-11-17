@@ -24,11 +24,12 @@ namespace ClientApplication
             List<MailMessage> messages = new List<MailMessage>()
             {
                 new MailMessage(ConfigurationManager.AppSettings["EmailSender"], "arikg94il@gmail.com", "Test Subject", "My message body"),
+                new MailMessage(ConfigurationManager.AppSettings["EmailSender"], "ariegurin@gmail.com", "Test Subject", "My message body"),
                 new MailMessage(ConfigurationManager.AppSettings["EmailSender"], "arie.gurin@rehnonline.com", "Test Subject", "My message body"),
                 new MailMessage(ConfigurationManager.AppSettings["EmailSender"], "arie.gurin@rehnonline.com", "Test Subject", "My message body")
             };
 
-            await EmailsManager.SendEmails(messages);
+            EmailsManager.SendEmails(messages);
 
         }
             

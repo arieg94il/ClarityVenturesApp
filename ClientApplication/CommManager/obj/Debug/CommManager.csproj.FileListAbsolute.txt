@@ -42,3 +42,25 @@ C:\Users\Arie.Gurin\source\repos\ClientApp\CommManager\obj\Debug\CommManager.csp
 C:\Users\Arie.Gurin\source\repos\ClientApp\CommManager\obj\Debug\CommManager.dll
 C:\Users\Arie.Gurin\source\repos\ClientApp\CommManager\obj\Debug\CommManager.pdb
 C:\Users\Arie.Gurin\source\repos\ClientApplication\CommManager\obj\Debug\CommManager.csproj.AssemblyReference.cache
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\CommManager.dll.config
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\CommManager.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\CommManager.pdb
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Buffers.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Memory.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Numerics.Vectors.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Buffers.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Memory.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Numerics.Vectors.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\obj\Debug\CommManager.csproj.AssemblyReference.cache
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\obj\Debug\CommManager.csproj.CoreCompileInputs.cache
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\obj\Debug\CommManager.csproj.CopyComplete
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\obj\Debug\CommManager.dll
+C:\Git Projects\ClarityVenturesApp\ClientApplication\CommManager\obj\Debug\CommManager.pdb

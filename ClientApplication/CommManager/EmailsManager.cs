@@ -11,7 +11,7 @@ namespace CommManager
     public static class EmailsManager
     {
 
-        public static async Task SendEmails(List<MailMessage> emailsMessages)
+        public static async void SendEmails(List<MailMessage> emailsMessages)
         {
             foreach(var emailMessage in emailsMessages)
             {
@@ -36,8 +36,8 @@ namespace CommManager
 
 
             if (Logger.GetLogs().Where(x => x.Attempts < 4 && x.Status == Status.Failed).Any())
-                while(Logger.GetLogs().Where(x => x.Attempts < 4 && x.Status == Status.Failed).Count()>0)
-                    await ResendFailedEmails();
+                while (Logger.GetLogs().Where(x => x.Attempts < 4 && x.Status == Status.Failed).Count() > 0)
+                    ResendFailedEmails();
 
 
         }
@@ -51,7 +51,7 @@ namespace CommManager
 
         
 
-        private static async Task ResendFailedEmails()
+        private static async void ResendFailedEmails()
         {
 
             List<Logger> failedEmails = Logger.GetLogs().Where(x => x.Attempts < 4 && x.Status == Status.Failed).ToList();
